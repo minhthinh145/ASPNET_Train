@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Desktop\\ASPNET\\Ecomerce\\Ecomerce\\Ecomerce.csproj": {}
+    "D:\\ASPNET\\Ecomerce\\Ecomerce\\Ecomerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Desktop\\ASPNET\\Ecomerce\\Ecomerce\\Ecomerce.csproj": {
+    "D:\\ASPNET\\Ecomerce\\Ecomerce\\Ecomerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\ASPNET\\Ecomerce\\Ecomerce\\Ecomerce.csproj",
+        "projectUniqueName": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Ecomerce.csproj",
         "projectName": "Ecomerce",
-        "projectPath": "C:\\Users\\ADMIN\\Desktop\\ASPNET\\Ecomerce\\Ecomerce\\Ecomerce.csproj",
+        "projectPath": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Ecomerce.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Desktop\\ASPNET\\Ecomerce\\Ecomerce\\obj\\",
+        "outputPath": "D:\\ASPNET\\Ecomerce\\Ecomerce\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS2\\NuGetPackages"

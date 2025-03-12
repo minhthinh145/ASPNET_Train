@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "055BPW2tXSY=",
+  "dgSpecHash": "vW4eQ+bTRME=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Desktop\\ASPNET\\Ecomerce\\Ecomerce\\Ecomerce.csproj",
+  "projectFilePath": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Ecomerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
