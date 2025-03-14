@@ -74,6 +74,7 @@ namespace Ecomerce.Controllers
                 SoLuongTon = 10,// tính sau
                 DiemDanhGia =5, // check sau
             };
+            //tạo res để truyền những information cần thiết
             return View(result);
         }
     }
