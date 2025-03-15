@@ -525,3 +525,5 @@ D:\ASPNET\Ecomerce\Ecomerce\obj\Debug\net8.0\refint\Ecomerce.dll
 D:\ASPNET\Ecomerce\Ecomerce\obj\Debug\net8.0\Ecomerce.pdb
 D:\ASPNET\Ecomerce\Ecomerce\obj\Debug\net8.0\Ecomerce.genruntimeconfig.cache
 D:\ASPNET\Ecomerce\Ecomerce\obj\Debug\net8.0\ref\Ecomerce.dll
+D:\ASPNET\Ecomerce\Ecomerce\bin\Debug\net8.0\AutoMapper.dll
+D:\ASPNET\Ecomerce\Ecomerce\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

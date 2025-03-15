@@ -1,4 +1,5 @@
 using Ecomerce.Data;
+using Ecomerce.Helpers;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,7 +18,8 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
-
+//https://docs.automapper.org/en/stable/
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
