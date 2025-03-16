@@ -266,6 +266,7 @@ wwwroot\Hinh\icons\Yin-Yang.png
 wwwroot\Hinh\icons\Zoom in.png
 wwwroot\Hinh\icons\Zoom out.png
 wwwroot\Hinh\icons\Zoom.png
+wwwroot\Hinh\images.png
 wwwroot\Hinh\KhachHang\android_300200.png
 wwwroot\Hinh\KhachHang\Author.jpg
 wwwroot\Hinh\KhachHang\man.jpg

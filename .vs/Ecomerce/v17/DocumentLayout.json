@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\ASPNET\\Ecomerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\helpers\\myutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\helpers\\myutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\views\\khachhang\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\views\\khachhang\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\helpers\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\helpers\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\helpers\\dataencryptionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\helpers\\dataencryptionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\controllers\\hanghoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\controllers\\hanghoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,54 +66,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyUtil.cs",
-              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Helpers\\MyUtil.cs",
-              "RelativeDocumentMoniker": "Ecomerce\\Helpers\\MyUtil.cs",
-              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Helpers\\MyUtil.cs",
-              "RelativeToolTip": "Ecomerce\\Helpers\\MyUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T08:29:18.769Z",
+              "DocumentIndex": 1,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Views\\KhachHang\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Ecomerce\\Views\\KhachHang\\Profile.cshtml",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Views\\KhachHang\\Profile.cshtml",
+              "RelativeToolTip": "Ecomerce\\Views\\KhachHang\\Profile.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T04:38:46.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MySetting.cs",
-              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Helpers\\MySetting.cs",
-              "RelativeDocumentMoniker": "Ecomerce\\Helpers\\MySetting.cs",
-              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Helpers\\MySetting.cs",
-              "RelativeToolTip": "Ecomerce\\Helpers\\MySetting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "KhachHangController.cs",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\KhachHangController.cs",
+              "RelativeDocumentMoniker": "Ecomerce\\Controllers\\KhachHangController.cs",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\KhachHangController.cs",
+              "RelativeToolTip": "Ecomerce\\Controllers\\KhachHangController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwFAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T08:29:18.249Z",
+              "WhenOpened": "2025-03-16T04:38:28.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DataEncryptionExtensions.cs",
-              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Helpers\\DataEncryptionExtensions.cs",
-              "RelativeDocumentMoniker": "Ecomerce\\Helpers\\DataEncryptionExtensions.cs",
-              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Helpers\\DataEncryptionExtensions.cs",
-              "RelativeToolTip": "Ecomerce\\Helpers\\DataEncryptionExtensions.cs",
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "Ecomerce\\Controllers\\HangHoaController.cs",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "Ecomerce\\Controllers\\HangHoaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T08:29:15.472Z",
+              "WhenOpened": "2025-03-16T04:38:27.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HangHoasController.cs",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\HangHoasController.cs",
+              "RelativeDocumentMoniker": "Ecomerce\\Controllers\\HangHoasController.cs",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\HangHoasController.cs",
+              "RelativeToolTip": "Ecomerce\\Controllers\\HangHoasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T04:38:27.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Helpers\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "Ecomerce\\Helpers\\AutoMapperProfile.cs",
-              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Helpers\\AutoMapperProfile.cs",
-              "RelativeToolTip": "Ecomerce\\Helpers\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Ecomerce\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Ecomerce\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T08:29:14.867Z",
+              "WhenOpened": "2025-03-16T04:38:26.652Z",
               "EditorCaption": ""
             }
           ]

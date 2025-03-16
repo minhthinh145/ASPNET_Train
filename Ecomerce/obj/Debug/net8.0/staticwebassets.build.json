@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fv3wrnJYnIZK9Pa2pL+YnCuuNSXBH2qUGBnvsDTOiYA=",
+  "Hash": "JIbBdOGrc/FMoH7s8Lm5aAcR5KDm9t0OpyXT4/U2A38=",
   "Source": "Ecomerce",
   "BasePath": "_content/Ecomerce",
   "Mode": "Default",
@@ -5685,6 +5685,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Hinh\\icons\\Zoom.png"
+    },
+    {
+      "Identity": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\Hinh\\images.png",
+      "SourceId": "Ecomerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\",
+      "BasePath": "_content/Ecomerce",
+      "RelativePath": "Hinh/images#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ul48da46j6",
+      "Integrity": "Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Hinh\\images.png"
     },
     {
       "Identity": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\Hinh\\KhachHang\\android_300200.png",
@@ -32865,6 +32886,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-HBj7R7OU5USVlbzaoXZ4RH8u8x8l2RG5LFVGqKBFdYQ="
+        }
+      ]
+    },
+    {
+      "Route": "Hinh/images.png",
+      "AssetFile": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\Hinh\\images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 03:33:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M="
+        }
+      ]
+    },
+    {
+      "Route": "Hinh/images.ul48da46j6.png",
+      "AssetFile": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\Hinh\\images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 03:33:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ul48da46j6"
+        },
+        {
+          "Name": "label",
+          "Value": "Hinh/images.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M="
         }
       ]
     },

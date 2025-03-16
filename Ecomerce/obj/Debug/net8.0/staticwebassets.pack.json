@@ -1209,6 +1209,10 @@
       "PackagePath": "staticwebassets\\Hinh\\icons\\vit.gif"
     },
     {
+      "Id": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\Hinh\\images.png",
+      "PackagePath": "staticwebassets\\Hinh\\images.png"
+    },
+    {
       "Id": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\LICENSE.txt",
       "PackagePath": "staticwebassets\\LICENSE.txt"
     },

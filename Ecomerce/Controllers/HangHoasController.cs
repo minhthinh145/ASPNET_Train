@@ -98,7 +98,7 @@ namespace Ecomerce.Controllers
         {
             if (id != hangHoa.MaHh)
             {
-                return NotFound();
+                return NotFound();  
             }
 
             if (ModelState.IsValid)

@@ -24767,6 +24767,88 @@
       ]
     },
     {
+      "Route": "Hinh/images.png",
+      "AssetFile": "Hinh/images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 03:33:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M="
+        }
+      ]
+    },
+    {
+      "Route": "Hinh/images.ul48da46j6.png",
+      "AssetFile": "Hinh/images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 03:33:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ul48da46j6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M="
+        },
+        {
+          "Name": "label",
+          "Value": "Hinh/images.png"
+        }
+      ]
+    },
+    {
       "Route": "LICENSE.qsdy6gzyas.txt",
       "AssetFile": "LICENSE.txt",
       "Selectors": [],

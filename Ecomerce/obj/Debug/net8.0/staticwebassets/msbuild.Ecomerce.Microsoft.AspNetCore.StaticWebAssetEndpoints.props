@@ -3228,6 +3228,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HBj7R7OU5USVlbzaoXZ4RH8u8x8l2RG5LFVGqKBFdYQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1146"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022HBj7R7OU5USVlbzaoXZ4RH8u8x8l2RG5LFVGqKBFdYQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Feb 2011 05:15:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Ecomerce/Hinh/images.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Hinh\images.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2852"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 03:33:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Ecomerce/Hinh/images.ul48da46j6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Hinh\images.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ul48da46j6"},{"Name":"integrity","Value":"sha256-Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M="},{"Name":"label","Value":"_content/Ecomerce/Hinh/images.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2852"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Uh7Kbip5qrNLjMDhMKBV63PdOoPVCZi15hsVPkXkH1M=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 03:33:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Ecomerce/Hinh/KhachHang/android_300200.84q096esls.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Hinh\KhachHang\android_300200.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
