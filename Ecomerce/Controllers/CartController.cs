@@ -2,6 +2,7 @@
 using Ecomerce.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Ecomerce.Helpers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Ecomerce.Controllers
 {
@@ -94,7 +95,80 @@ namespace Ecomerce.Controllers
                 itemTotal
             });
         }
+        [Authorize]
 
+        [HttpGet]
+        public IActionResult Checkout() 
+        {
+            if (Cart.Count == 0) 
+            {
+                Redirect("/");
+            }
+            return View(Cart);
+        }
+
+        [Authorize]
+
+        [HttpPost]
+        public IActionResult Checkout(CheckoutVM model)
+        {
+            if (ModelState.IsValid)
+            {
+                var customerId = HttpContext.User.Claims.SingleOrDefault(p => p.Type == MySetting.CLAIM_CUSTOMERID).Value;
+                var khachHang = new KhachHang();
+                if (model.GiongKhachHang)
+                {
+                    khachHang = db.KhachHangs.SingleOrDefault(kh => kh.MaKh == customerId);
+                }
+
+                var hoadon = new HoaDon
+                {
+                    MaKh = customerId,
+                    HoTen = model.HoTen ?? khachHang.HoTen,
+                    DiaChi = model.DiaChi ?? khachHang.DiaChi,
+                    SoDienThoai = model.DienThoai ?? khachHang.DienThoai,
+                    NgayDat = DateTime.Now,
+                    CachThanhToan = "COD",
+                    CachVanChuyen = "GRAB",
+                    MaTrangThai = 0,
+                    GhiChu = model.GhiChu
+                };
+
+                using var transaction = db.Database.BeginTransaction();
+                try
+                {
+                    db.Add(hoadon);
+                    db.SaveChanges(); 
+
+                    var cthd = new List<ChiTietHd>();
+                    foreach (var item in Cart)
+                    {
+                        cthd.Add(new ChiTietHd
+                        {
+                            MaHd = hoadon.MaHd,
+                            MaHh = item.MaHh,
+                            SoLuong = item.SoLuong,
+                            DonGia = item.DonGia,
+                            GiamGia = 0
+                        });
+                    }
+                    db.AddRange(cthd);
+                    db.SaveChanges(); 
+
+                    transaction.Commit(); 
+
+                    HttpContext.Session.Set<List<CartItem>>(MySetting.CART_KEY, new List<CartItem>()); // reset giỏ hàng
+
+                    return View("Success"); 
+                }
+                catch
+                {
+                    transaction.Rollback(); 
+                    throw; 
+                }
+            }
+            return View(Cart); 
+        }
 
     }
 }

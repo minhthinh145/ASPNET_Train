@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rhccOG0FQXpePYOt00ztHObqcAkge+iTayNesdkY61Y=",
+  "Hash": "Pabi+RGU9GfW49+QqMk3rVLVdG7whA/r+noZBsN37AI=",
   "Source": "Ecomerce",
   "BasePath": "_content/Ecomerce",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y4m3xvvojo",
-      "Integrity": "0h/G/LjMDBl2P+LsgfApdag2pw5hKi+1Bbr1cTQU7kQ=",
+      "Fingerprint": "8ligumhrwv",
+      "Integrity": "HIgTrZu67MRPK6wyNfBLeE91K2lqjPDDlb/7kpvLptA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\chackout.html"
@@ -7234,8 +7234,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w42hu5mfzn",
-      "Integrity": "8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA=",
+      "Fingerprint": "u9j839cb8c",
+      "Integrity": "kjqM1Bvn3uY5B0+LxjyZTJjeqPpAnQqXZU7mWZ8rJ80=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\cart.js"
@@ -10935,6 +10935,51 @@
       ]
     },
     {
+      "Route": "chackout.8ligumhrwv.html",
+      "AssetFile": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\chackout.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HIgTrZu67MRPK6wyNfBLeE91K2lqjPDDlb/7kpvLptA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 13:41:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ligumhrwv"
+        },
+        {
+          "Name": "label",
+          "Value": "chackout.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HIgTrZu67MRPK6wyNfBLeE91K2lqjPDDlb/7kpvLptA="
+        }
+      ]
+    },
+    {
       "Route": "chackout.html",
       "AssetFile": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\chackout.html",
       "Selectors": [],
@@ -10945,7 +10990,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28102"
+          "Value": "28103"
         },
         {
           "Name": "Content-Type",
@@ -10953,11 +10998,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0h/G/LjMDBl2P+LsgfApdag2pw5hKi+1Bbr1cTQU7kQ=\""
+          "Value": "\"HIgTrZu67MRPK6wyNfBLeE91K2lqjPDDlb/7kpvLptA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Sep 2023 05:24:16 GMT"
+          "Value": "Mon, 17 Mar 2025 13:41:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10967,52 +11012,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0h/G/LjMDBl2P+LsgfApdag2pw5hKi+1Bbr1cTQU7kQ="
-        }
-      ]
-    },
-    {
-      "Route": "chackout.y4m3xvvojo.html",
-      "AssetFile": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\chackout.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "28102"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0h/G/LjMDBl2P+LsgfApdag2pw5hKi+1Bbr1cTQU7kQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Sep 2023 05:24:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "y4m3xvvojo"
-        },
-        {
-          "Name": "label",
-          "Value": "chackout.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0h/G/LjMDBl2P+LsgfApdag2pw5hKi+1Bbr1cTQU7kQ="
+          "Value": "sha256-HIgTrZu67MRPK6wyNfBLeE91K2lqjPDDlb/7kpvLptA="
         }
       ]
     },
@@ -38907,7 +38907,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1818"
+          "Value": "2169"
         },
         {
           "Name": "Content-Type",
@@ -38915,11 +38915,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA=\""
+          "Value": "\"kjqM1Bvn3uY5B0+LxjyZTJjeqPpAnQqXZU7mWZ8rJ80=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 03:28:06 GMT"
+          "Value": "Mon, 17 Mar 2025 13:17:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38929,12 +38929,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA="
+          "Value": "sha256-kjqM1Bvn3uY5B0+LxjyZTJjeqPpAnQqXZU7mWZ8rJ80="
         }
       ]
     },
     {
-      "Route": "js/cart.w42hu5mfzn.js",
+      "Route": "js/cart.u9j839cb8c.js",
       "AssetFile": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\js\\cart.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -38944,7 +38944,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1818"
+          "Value": "2169"
         },
         {
           "Name": "Content-Type",
@@ -38952,11 +38952,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA=\""
+          "Value": "\"kjqM1Bvn3uY5B0+LxjyZTJjeqPpAnQqXZU7mWZ8rJ80=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 03:28:06 GMT"
+          "Value": "Mon, 17 Mar 2025 13:17:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38966,7 +38966,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w42hu5mfzn"
+          "Value": "u9j839cb8c"
         },
         {
           "Name": "label",
@@ -38974,7 +38974,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA="
+          "Value": "sha256-kjqM1Bvn3uY5B0+LxjyZTJjeqPpAnQqXZU7mWZ8rJ80="
         }
       ]
     },

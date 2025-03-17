@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>y4m3xvvojo</Fingerprint>
-      <Integrity>0h/G/LjMDBl2P+LsgfApdag2pw5hKi+1Bbr1cTQU7kQ=</Integrity>
+      <Fingerprint>8ligumhrwv</Fingerprint>
+      <Integrity>HIgTrZu67MRPK6wyNfBLeE91K2lqjPDDlb/7kpvLptA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\chackout.html'))</OriginalItemSpec>
@@ -6168,8 +6168,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w42hu5mfzn</Fingerprint>
-      <Integrity>8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA=</Integrity>
+      <Fingerprint>u9j839cb8c</Fingerprint>
+      <Integrity>kjqM1Bvn3uY5B0+LxjyZTJjeqPpAnQqXZU7mWZ8rJ80=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cart.js'))</OriginalItemSpec>
