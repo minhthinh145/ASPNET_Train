@@ -1377,6 +1377,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\js\\cart.js",
+      "PackagePath": "staticwebassets\\js\\cart.js"
+    },
+    {
       "Id": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },

@@ -69,5 +69,32 @@ namespace Ecomerce.Controllers
             }
             return RedirectToAction("Index");
         }
+        [HttpPost]
+        [HttpPost]
+        public IActionResult UpdateCart(int productId, int quantity)
+        {
+            var cart = HttpContext.Session.Get<List<CartItem>>(MySetting.CART_KEY);
+            var item = cart?.FirstOrDefault(p => p.MaHh == productId);
+            if (item != null)
+            {
+                item.SoLuong = quantity;
+            }
+            HttpContext.Session.Set(MySetting.CART_KEY, cart);
+
+            // Tính toán lại
+            var total = cart.Sum(x => x.SoLuong * x.DonGia);
+            var totalQuantity = cart.Sum(x => x.SoLuong);
+            var itemTotal = item.SoLuong * item.DonGia;
+
+            return Json(new
+            {
+                success = true,
+                total,
+                totalQuantity,
+                itemTotal
+            });
+        }
+
+
     }
 }

@@ -4104,6 +4104,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kovt8xosu1"},{"Name":"integrity","Value":"sha256-pPHLvJyp5XUgKVOf4M6EWMiF9s7ub6tGl5If0JeGhkY="},{"Name":"label","Value":"_content/Ecomerce/index.html"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"81046"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022pPHLvJyp5XUgKVOf4M6EWMiF9s7ub6tGl5If0JeGhkY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 14:13:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Ecomerce/js/cart.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1818"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00228KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 03:28:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Ecomerce/js/cart.w42hu5mfzn.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w42hu5mfzn"},{"Name":"integrity","Value":"sha256-8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA="},{"Name":"label","Value":"_content/Ecomerce/js/cart.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1818"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00228KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 03:28:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Ecomerce/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

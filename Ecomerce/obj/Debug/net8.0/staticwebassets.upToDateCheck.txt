@@ -339,6 +339,7 @@ wwwroot\img\vegetable-item-4.jpg
 wwwroot\img\vegetable-item-5.jpg
 wwwroot\img\vegetable-item-6.jpg
 wwwroot\index.html
+wwwroot\js\cart.js
 wwwroot\js\main.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

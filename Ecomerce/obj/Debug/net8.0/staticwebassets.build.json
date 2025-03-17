@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JIbBdOGrc/FMoH7s8Lm5aAcR5KDm9t0OpyXT4/U2A38=",
+  "Hash": "rhccOG0FQXpePYOt00ztHObqcAkge+iTayNesdkY61Y=",
   "Source": "Ecomerce",
   "BasePath": "_content/Ecomerce",
   "Mode": "Default",
@@ -7218,6 +7218,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\js\\cart.js",
+      "SourceId": "Ecomerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\",
+      "BasePath": "_content/Ecomerce",
+      "RelativePath": "js/cart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w42hu5mfzn",
+      "Integrity": "8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cart.js"
     },
     {
       "Identity": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\js\\main.js",
@@ -38872,6 +38893,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pPHLvJyp5XUgKVOf4M6EWMiF9s7ub6tGl5If0JeGhkY="
+        }
+      ]
+    },
+    {
+      "Route": "js/cart.js",
+      "AssetFile": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\js\\cart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:28:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA="
+        }
+      ]
+    },
+    {
+      "Route": "js/cart.w42hu5mfzn.js",
+      "AssetFile": "D:\\ASPNET\\Ecomerce\\Ecomerce\\wwwroot\\js\\cart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 03:28:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w42hu5mfzn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8KhNEEors3LwRX/ea3fEzsESPIM2UP8GfBeJhOW6yzA="
         }
       ]
     },

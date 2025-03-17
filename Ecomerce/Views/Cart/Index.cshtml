@@ -47,24 +47,25 @@
 								<p class="mb-0 mt-4">$ @item.DonGia</p>
 							</td>
 							<td>
-								<div class="input-group quantity mt-4" style="width: 100px;">
+								<div class="input-group quantity mt-4" style="width: 100px;" data-id="@item.MaHh" data-price="@item.DonGia">
 									<div class="input-group-btn">
-										<button class="btn btn-sm btn-minus rounded-circle bg-light border">
+										<button class="btn btn-sm btn-minus rounded-circle bg-light border" type="button">
 											<i class="fa fa-minus"></i>
 										</button>
 									</div>
-									<input type="text" class="form-control form-control-sm text-center border-0" value="@item.SoLuong">
+									<input type="text" class="form-control form-control-sm text-center border-0 quantity-input" value="@item.SoLuong" readonly>
 									<div class="input-group-btn">
-										<button class="btn btn-sm btn-plus rounded-circle bg-light border">
+										<button class="btn btn-sm btn-plus rounded-circle bg-light border" type="button">
 											<i class="fa fa-plus"></i>
 										</button>
 									</div>
 								</div>
 							</td>
 							<td>
-								<p class="mb-0 mt-4">$ @item.ThanhTien</p>
+								<p class="mb-0 mt-4" id="total-@item.MaHh">$ @item.ThanhTien</p>
 							</td>
-							<td>
+
+							<td>	
 								<a asp-action="RemoveCart" asp-controller="Cart" asp-route-id="@item.MaHh" class="btn btn-md rounded-circle bg-light border mt-4">
 									<i class="fa fa-times text-danger"></i>
 								</a>
@@ -108,3 +109,6 @@
 	</div>
 </div>
 <!-- Cart Page End -->
+@section Scripts {
+	<script src="~/js/cart.js"></script>
+}
