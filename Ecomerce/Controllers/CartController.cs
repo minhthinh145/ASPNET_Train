@@ -3,15 +3,21 @@ using Ecomerce.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Ecomerce.Helpers;
 using Microsoft.AspNetCore.Authorization;
+using Ecomerce.Services;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Microsoft.EntityFrameworkCore;
 
 namespace Ecomerce.Controllers
 {
     public class CartController : Controller
     {
+        private readonly PaypalClient _paypalClient;
         private readonly Hshop2023Context db;
 
-        public CartController(Hshop2023Context context) 
+        public CartController(Hshop2023Context context, PaypalClient paypal) 
         {
+            _paypalClient = paypal;
             db = context;
         }
  
@@ -98,12 +104,13 @@ namespace Ecomerce.Controllers
         [Authorize]
 
         [HttpGet]
-        public IActionResult Checkout() 
+        public IActionResult Checkout()
         {
-            if (Cart.Count == 0) 
+            if (Cart.Count == 0)
             {
                 Redirect("/");
             }
+            ViewBag.PaypalClientId = _paypalClient.ClientId;
             return View(Cart);
         }
 
@@ -169,6 +176,83 @@ namespace Ecomerce.Controllers
             }
             return View(Cart); 
         }
+        [Authorize]
+        public IActionResult PaymentSuccess() 
+        {
+            return View("Success");
+        }
+        #region Paypal payment
+        [Authorize]
+        [HttpPost("/Cart/create-paypal-order")]
+        public async Task<IActionResult> CreatePaypalOrder(CancellationToken cancellationToken) 
+        {
+            // Thông tin đơn hàng gửi qua Paypal
+            var tongTien = Cart.Sum(p => p.ThanhTien).ToString();
 
+            var donViTienTe = "USD";
+            var maDonHangThamChieu = "DH" + DateTime.Now.Ticks.ToString();
+            try
+            {
+                var response = await _paypalClient.CreateOrder(tongTien, donViTienTe, maDonHangThamChieu);
+                Console.WriteLine("Create Order Response: " + JsonConvert.SerializeObject(response));
+                return Ok(response);
+            }
+            catch (Exception ex) 
+            {
+                var error = new { ex.GetBaseException().Message };
+                return BadRequest(error);
+            }
+        }
+
+        [Authorize]
+        [HttpPost("/Cart/capture-paypal-order")]
+        public async Task<IActionResult> CapturePaypalOrder(string orderID, CancellationToken cancellationToken)
+        {
+            // Kiểm tra orderID hợp lệ
+            if (string.IsNullOrEmpty(orderID))
+            {
+                return BadRequest(new { error = "orderID không hợp lệ hoặc bị thiếu" });
+            }
+
+            Console.WriteLine($"Debug: orderID nhận được -> {orderID}");
+
+            try
+            {
+                // Gửi yêu cầu đến PayPal để xác nhận thanh toán
+                var response = await _paypalClient.CaptureOrder(orderID);
+                Console.WriteLine($"PayPal Capture Response: {JsonConvert.SerializeObject(response)}");
+
+                // Kiểm tra trạng thái giao dịch từ PayPal
+                if (response.status != "COMPLETED")
+                {
+                    return BadRequest(new { error = "Giao dịch chưa hoàn tất. Trạng thái: " + response.status });
+                }
+
+                // Lấy số tiền và thông tin người thanh toán
+                var amountPaid = response.purchase_units.First().payments.captures.First().amount.value;
+                var currency = response.purchase_units.First().payments.captures.First().amount.currency_code;
+                var payerId = response.payer.payer_id;
+                var payerEmail = response.payer.email_address;
+
+                // Log thông tin giao dịch
+                Console.WriteLine($"Thanh toán thành công: {amountPaid} {currency}, PayerID: {payerId}, Email: {payerEmail}");
+
+                return Ok(new
+                {
+                    message = "Thanh toán thành công",
+                    amount = amountPaid,
+                    currency,
+                    payerId,
+                    payerEmail
+                });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Lỗi khi Capture Order: {ex.GetBaseException().Message}");
+                return BadRequest(new { error = ex.GetBaseException().Message });
+            }
+        }
+
+        #endregion
     }
 }

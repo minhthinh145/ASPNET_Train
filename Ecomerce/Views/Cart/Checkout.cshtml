@@ -44,6 +44,7 @@
 					<div class="row g-4 text-center ali	gn-items-center justify-content-center pt-4">
 						<button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Đặt hàng</button>
 					</div>
+					<div id="paypal-button-container" style="max-width:1000px"></div>
 				</div>
 				<div class="col-md-12 col-lg-6 col-xl-5">
 					<div class="table-responsive">
@@ -167,6 +168,7 @@
 </div>
 <!-- Checkout Page End -->
 @section Scripts {
+	<script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.PaypalClientId"></script>
 	<script>
 		$(document).ready(function (){
 			$("#GiongKhachHang").change(function(){
@@ -182,5 +184,39 @@
 				}
 			});
 		});
+
+			paypal.Buttons({
+			style: {
+				layout: 'vertical',
+				color: 'silver',
+				tagline: 'false'
+			},
+			createOrder: (data, actions) => {
+				return fetch("/Cart/create-paypal-order", {
+					method: "post",
+				}).then((response) => {
+					if (!response.ok) {
+						return response.json().then(error => { throw error; });
+					}
+
+					return response.json();
+				}).then((order) => order.id)
+				.catch(error => alert(error.message));
+			},
+			onApprove: (data, actions) => {
+				return fetch(`/Cart/capture-paypal-order?orderId=${data.orderID}`, {
+					method: "post",
+				}).then((response) => {
+					if (!response.ok) {
+						return response.json().then(error => { throw error; });
+					}
+
+					//Đổi địa chỉ tới action thông báo thành công
+					window.location.href = "/Cart/PaymentSuccess";
+				}).catch(error => alert(error.message));
+			}
+		}).render('#paypal-button-container');
+
+
 	</script>
 }
