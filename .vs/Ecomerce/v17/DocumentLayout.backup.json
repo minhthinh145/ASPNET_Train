@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\ASPNET\\Ecomerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\services\\vnpayservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\services\\vnpayservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +15,44 @@
       "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\models\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\models\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\views\\cart\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\views\\cart\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\services\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\services\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\services\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\services\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\views\\cart\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\views\\cart\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|d:\\aspnet\\ecomerce\\ecomerce\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC31129D-7AF9-43C0-A110-B85FBCDCA3C2}|Ecomerce\\Ecomerce.csproj|solutionrelative:ecomerce\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 266,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,6 +98,97 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentFail.cshtml",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Views\\Cart\\PaymentFail.cshtml",
+              "RelativeDocumentMoniker": "Ecomerce\\Views\\Cart\\PaymentFail.cshtml",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Views\\Cart\\PaymentFail.cshtml",
+              "RelativeToolTip": "Ecomerce\\Views\\Cart\\PaymentFail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T01:16:43.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VnPayServices.cs",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Services\\VnPayServices.cs",
+              "RelativeDocumentMoniker": "Ecomerce\\Services\\VnPayServices.cs",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Services\\VnPayServices.cs",
+              "RelativeToolTip": "Ecomerce\\Services\\VnPayServices.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wB8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:18:54.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\appsettings.json",
+              "RelativeDocumentMoniker": "Ecomerce\\appsettings.json",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\appsettings.json",
+              "RelativeToolTip": "Ecomerce\\appsettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-18T02:15:14.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MySetting.cs",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Helpers\\MySetting.cs",
+              "RelativeDocumentMoniker": "Ecomerce\\Helpers\\MySetting.cs",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Helpers\\MySetting.cs",
+              "RelativeToolTip": "Ecomerce\\Helpers\\MySetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:54:01.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VnPaymentResponseModel.cs",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Models\\VnPaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "Ecomerce\\Models\\VnPaymentResponseModel.cs",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Models\\VnPaymentResponseModel.cs",
+              "RelativeToolTip": "Ecomerce\\Models\\VnPaymentResponseModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:09:39.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IVnPayService.cs",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Services\\IVnPayService.cs",
+              "RelativeDocumentMoniker": "Ecomerce\\Services\\IVnPayService.cs",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Services\\IVnPayService.cs",
+              "RelativeToolTip": "Ecomerce\\Services\\IVnPayService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:15:07.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Services\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "Ecomerce\\Services\\VnPayLibrary.cs",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Services\\VnPayLibrary.cs",
+              "RelativeToolTip": "Ecomerce\\Services\\VnPayLibrary.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAADwv5kAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:07:13.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Views\\Cart\\Index.cshtml",
@@ -87,38 +202,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Program.cs",
               "RelativeDocumentMoniker": "Ecomerce\\Program.cs",
               "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Program.cs",
               "RelativeToolTip": "Ecomerce\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T02:28:26.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\appsettings.json",
-              "RelativeDocumentMoniker": "Ecomerce\\appsettings.json",
-              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\appsettings.json",
-              "RelativeToolTip": "Ecomerce\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-18T02:15:14.865Z",
+              "WhenOpened": "2025-03-18T02:28:26.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Views\\Cart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Ecomerce\\Views\\Cart\\Checkout.cshtml",
-              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Views\\Cart\\Checkout.cshtml*",
-              "RelativeToolTip": "Ecomerce\\Views\\Cart\\Checkout.cshtml*",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAswNsAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "Ecomerce\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwC0AAACKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T14:29:52.934Z",
               "EditorCaption": ""
@@ -129,29 +232,29 @@
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Ecomerce\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\CartController.cs*",
-              "RelativeToolTip": "Ecomerce\\Controllers\\CartController.cs*",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAowLIAAAArAAAAAAAAAA==",
+              "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Ecomerce\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAUwHwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T14:16:50.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Success.cshtml",
               "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Views\\Cart\\Success.cshtml",
               "RelativeDocumentMoniker": "Ecomerce\\Views\\Cart\\Success.cshtml",
               "ToolTip": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Views\\Cart\\Success.cshtml",
               "RelativeToolTip": "Ecomerce\\Views\\Cart\\Success.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T14:27:45.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "HangHoaController.cs",
               "DocumentMoniker": "D:\\ASPNET\\Ecomerce\\Ecomerce\\Controllers\\HangHoaController.cs",
               "RelativeDocumentMoniker": "Ecomerce\\Controllers\\HangHoaController.cs",
@@ -159,8 +262,7 @@
               "RelativeToolTip": "Ecomerce\\Controllers\\HangHoaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T14:16:49.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T14:16:49.816Z"
             }
           ]
         },

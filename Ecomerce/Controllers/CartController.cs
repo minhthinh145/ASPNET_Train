@@ -7,6 +7,7 @@ using Ecomerce.Services;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Microsoft.EntityFrameworkCore;
+using Ecomerce.Models;
 
 namespace Ecomerce.Controllers
 {
@@ -14,11 +15,13 @@ namespace Ecomerce.Controllers
     {
         private readonly PaypalClient _paypalClient;
         private readonly Hshop2023Context db;
+        private readonly IVnPayService _vnPayService;
 
-        public CartController(Hshop2023Context context, PaypalClient paypal) 
+        public CartController(Hshop2023Context context, PaypalClient paypal , IVnPayService vnPayservice) 
         {
             _paypalClient = paypal;
             db = context;
+            _vnPayService = vnPayservice;
         }
  
         public List<CartItem> Cart => HttpContext.Session.Get<List<CartItem>>(MySetting.CART_KEY) ?? new List<CartItem>();
@@ -117,10 +120,23 @@ namespace Ecomerce.Controllers
         [Authorize]
 
         [HttpPost]
-        public IActionResult Checkout(CheckoutVM model)
+        public IActionResult Checkout(CheckoutVM model, string payment = "COD")
         {
             if (ModelState.IsValid)
             {
+                if (payment == "Thanh toán VNPay")
+                {
+                    var vnPayModel = new VnPaymentRequestModel
+                    {
+                        Amount = Cart.Sum(p => p.ThanhTien),
+                        CreatedDate = DateTime.Now,
+                        Description = $"{model.HoTen} {model.DienThoai}",
+                        FullName = model.HoTen,
+                        OrderId = new Random().Next(1000, 10000)
+                    };
+                    return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnPayModel));   
+                }
+
                 var customerId = HttpContext.User.Claims.SingleOrDefault(p => p.Type == MySetting.CLAIM_CUSTOMERID).Value;
                 var khachHang = new KhachHang();
                 if (model.GiongKhachHang)
@@ -254,5 +270,26 @@ namespace Ecomerce.Controllers
         }
 
         #endregion
+        [Authorize]
+        public IActionResult PaymentFail() 
+        {
+            return View();
+        }
+        [Authorize]
+        public IActionResult PaymentCallBack() 
+        {
+            var response = _vnPayService.PaymentExecute(Request.Query);
+
+            if(response == null || response.VnPayResponseCode != "00")
+            {
+                TempData["Message"] = $"Lỗi thanh toán VNPay: {response.VnPayResponseCode}";
+                return RedirectToAction("PaymentFail");
+            }
+
+            //Lưu đơn hàng vào database
+
+            TempData["Message"] = $"Thanh toán VNPay thành công";
+            return RedirectToAction("PaymentSuccess");
+        }
     }
 }

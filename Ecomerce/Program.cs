@@ -33,6 +33,9 @@ builder.Services.AddSingleton(x => new PaypalClient(
     builder.Configuration["PaypalOptions:AppSecret"],
     builder.Configuration["PaypalOptions:Mode"]
 ));
+
+builder.Services.AddSingleton<IVnPayService, VnPayServices>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
